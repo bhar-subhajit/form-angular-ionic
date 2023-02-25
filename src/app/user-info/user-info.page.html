@@ -1,0 +1,49 @@
+<ion-content>
+  <form [formGroup]="userForm">
+    <ion-list>
+      <ion-item>
+        <ion-label>Name:</ion-label>
+        <ion-input
+          placeholder="Enter your name"
+          formControlName="name"
+        ></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Username:</ion-label>
+        <ion-input
+          placeholder="Enter the username"
+          formControlName="userName"
+        ></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>email:</ion-label>
+        <ion-input
+          placeholder="Enter email id"
+          formControlName="email"
+        ></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Address:</ion-label>
+        <ion-input
+          placeholder="Enter your address"
+          formControlName="address"
+        ></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Phone No:</ion-label>
+        <ion-input
+          placeholder="Enter your phone no"
+          formControlName="phone"
+        ></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Company:</ion-label>
+        <ion-input
+          placeholder="Enter company name"
+          formControlName="company"
+        ></ion-input>
+      </ion-item>
+    </ion-list>
+    <ion-button (click)="submit()">Submit</ion-button>
+  </form>
+</ion-content>

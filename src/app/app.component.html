@@ -1,0 +1,15 @@
+<ion-app>
+  <div class="nav">
+    <ul>
+      <li>
+        <a routerLink="/user-info" routerLinkActive="active"
+          >User Information</a
+        >
+      </li>
+      <li><a routerLink="/about-us" routerLinkActive="active">About Us</a></li>
+      <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+      <li class="dateTime">{{ currentDate | date : "medium" }}</li>
+    </ul>
+  </div>
+  <ion-router-outlet class="outlet-margin"></ion-router-outlet>
+</ion-app>
