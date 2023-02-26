@@ -1,13 +1,11 @@
 <ion-app>
   <div class="nav">
     <ul>
-      <li>
-        <a routerLink="/user-info" routerLinkActive="active"
-          >User Information</a
-        >
+      <li routerLink="/user-info" routerLinkActive="active">
+        User Information
       </li>
-      <li><a routerLink="/about-us" routerLinkActive="active">About Us</a></li>
-      <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+      <li routerLink="/about-us" routerLinkActive="active">About Us</li>
+      <li routerLink="/contact" routerLinkActive="active">Contact</li>
       <li class="dateTime">{{ currentDate | date : "medium" }}</li>
     </ul>
   </div>
