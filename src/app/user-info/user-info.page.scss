@@ -1,0 +1,10 @@
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 1rem;
+    ion-button {
+        width: 50%;
+    }
+}
